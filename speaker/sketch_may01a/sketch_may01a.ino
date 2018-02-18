@@ -29,6 +29,6 @@ void loop() {
   int average = sum/historyToKeep;
   Serial.println(average);
   
-  tone(13, average * 20);
+  tone(13, average * 3);
 }
 
